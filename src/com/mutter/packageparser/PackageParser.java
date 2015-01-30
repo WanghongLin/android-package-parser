@@ -29,7 +29,7 @@ public class PackageParser {
 	public static void main(String[] args) {
 		
 		PackageParser parser = new PackageParser();
-		PackageInfo info = parser.dumpPackageInfo("/home/mutter/ntfs/data/pkg/apkfusion/com.tencent.mm_501_v6.0.0.57_r870003.apk");
+		PackageInfo info = parser.dumpPackageInfo("com.tencent.mm_501_v6.0.0.57_r870003.apk");
 		
 		System.out.println("packageName\t:\t" + info.getPackageName());
 		System.out.println("versionCode\t:\t" + info.getVersionCode());
